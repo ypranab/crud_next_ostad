@@ -125,7 +125,7 @@ export default function Home() {
             </div>
             <input
               className="py-2 w-36 rounded-lg bg-amber-500"
-              value="Add brand"
+              value="Add"
               type="submit"
             />
           </form>

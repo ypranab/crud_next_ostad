@@ -68,6 +68,11 @@ const ProductList = () => {
       const updatedProduct = {
         ...selected,
         ProductName: formData.name,
+        Img: formData.img,
+        ProductCode: formData.code,
+        Qty: formData.quantity,
+        TotalPrice: formData.TotalPrice,
+        UnitPrice: formData.UnitPrice,
       };
 
       const res = await (
